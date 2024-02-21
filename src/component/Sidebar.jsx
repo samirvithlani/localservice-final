@@ -10,7 +10,7 @@ export const Sidebar = () => {
     },
     {
       name: "MY SERVICES",
-      link: "/serviceprovider/myservices",
+      link: "/serviceprovider/servicelist",
     }
   ];
 
@@ -44,10 +44,10 @@ export const Sidebar = () => {
         </div>
         <ul className="nav">
           <li className="nav-item active">
-            <a className="nav-link" href="dashboard.html">
+            <Link className="nav-link" to="/serviceprovider/dashboard">
               <i className="nc-icon nc-chart-pie-35" />
               <p>Dashboard</p>
-            </a>
+            </Link>
           </li>
 
           {path.includes("serviceprovider")

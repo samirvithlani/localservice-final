@@ -1,0 +1,23 @@
+local service 
+
+add service and service list...
+
+service table
+                         action
+                           edit service delete detail
+
+
+project management
+
+
+add project 
+project list   
+project table
+                         action
+                           edit project delete detail   
+
+
+expense management
+
+add expense
+expense list
